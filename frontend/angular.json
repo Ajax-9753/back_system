@@ -1,0 +1,13 @@
+{
+  "projects": {
+    "corp-admin": {
+      "architect": {
+        "build": {
+          "options": {
+            "outputPath": "../backend/django_app/static/"
+          }
+        }
+      }
+    }
+  }
+}

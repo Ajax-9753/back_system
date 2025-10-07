@@ -1,0 +1,12 @@
+[Unit]
+Description=Flask API Service
+After=network.target
+
+[Service]
+User=www-data
+Group=www-data
+WorkingDirectory=/var/www/corp-admin/backend/flask_api
+ExecStart=/var/www/corp-admin/backend/flask_api/venv/bin/gunicorn --workers 2 --bind 127.0.0.1:5001 app:app
+
+[Install]
+WantedBy=multi-user.target
