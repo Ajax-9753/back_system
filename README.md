@@ -14,13 +14,8 @@
 ---
 
 ## 🧩 システム構成図
-```
-    A[Client UI<br>(Angular SPA)] -->|HTTPS / Nginx| B[Nginx Reverse Proxy]
-    B --> C[Django (Gunicorn)<br>/api/...]
-    B --> D[Flask (Gunicorn)<br>/flask/api/...]
-    C --> E[(SQLite / PostgreSQL)]
-    D --> E
-```
+<img width="518" height="542" alt="{49994FCF-5FB2-4D46-9B07-A785B01992EE}" src="https://github.com/user-attachments/assets/f63d7775-4ed4-4886-9dd5-b691aaeabfa9" />
+
 ---
 
 ## レイヤー 、技術 、 バージョン、用途
